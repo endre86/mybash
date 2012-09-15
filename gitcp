@@ -1,7 +1,1 @@
 #!/bin/bash
-#
-# Git commit + push with message
-git commit -m "$1"
-git push
-echo "Committed and pushed, message: $1"
-git log --graph --oneline --color
